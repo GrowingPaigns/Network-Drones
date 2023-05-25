@@ -2,12 +2,12 @@
 The directories in this repository represent the first and final edition for my network programing homework assignments.
 The included client/server code was refined with each lesson throughout the year and ultimately grew into the C file found in the Lab 8 directory
 
-### 📂 [Lab 1 Folder]:
+### 📂 [Lab 1 Folder](https://github.com/GrowingPaigns/Network-Drones/tree/main/Lab%201):
 Contains the foundational client/server archetecture I created. 
 
 The server establishes a communication between clients where in which a client can send a file full of key:value pairs, and have it be recieved by any other active clients. The file is sent line by line, and each time the same message is sent, the version of the message is iterated.
 
-### 📂 [Lab 8 Folder]:
+### 📂 [Lab 8 Folder](https://github.com/GrowingPaigns/Network-Drones/tree/main/Lab%208):
 Contains the endpoint of the semester's worth of work
 
 The server and client architecture has, by this point, been combined into a single "drone" file. The concept of grid based locations has been introduced. As seen in the program start command (./drone8 XXXXX 3 5), the program is initially started using a Port Number and by specifying the grid the drone will be operating in (columns, rows). Each port number has an attached IP address and Location specified in the config.file. If drones are 2 or less spaces away from one another in the grid (including diagonally) they will be able to communicate, else, they will print an `[OUT OF RANGE]` message.
