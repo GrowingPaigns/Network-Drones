@@ -34,6 +34,10 @@ When running the program, you will notice that the two lines present in the text
 
 Another thing to note, after the data has been printed, the server will output an error message. This message is intentional, and is how the program terminates itself after exhausting the data stored by the buffer. The message states, "[recvfrom ERROR - No bytes recieved]: Success". As long as "Success" appears after the error message, the system is functioning properly. The reason this error pops up is because my 'checkSocketRC' function is trying to assign the recieved data to the buffer, but since the program has reached the EOF, there is no more data to assign, thus, no bytes get recieved. Thereby, in this instance, the error is more of a success check than anything. 
 
+### Output:
+![Proof of Server](https://github.com/GrowingPaigns/Network-Drones/assets/63205868/ccdc0e26-541f-49bf-b8ba-39b918db2628)
+
+
 	==========================================================================================
 						
 			      Below is the functionality of Cli/Serv from Lab 0.
