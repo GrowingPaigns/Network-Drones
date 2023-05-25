@@ -49,7 +49,8 @@ My solution to this was to simply remove the CFLAGS, which means my makefile now
          
 
 ---------------------------------------------------------------------------
-
+### Output:
+![Samuel Hilfer - Output](https://github.com/GrowingPaigns/Network-Drones/assets/63205868/0afeb458-ecdc-4032-b053-054bb9cbba60)
 
 ### Issues during testing on (05/01/2023):
 
